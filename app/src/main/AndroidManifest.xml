@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="chaniagame.nanter1986.com.chaniagame">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/chaniaicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".MainMenuAct"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.AgoraAct"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.insideAgora"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.Port"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.Bar"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.Tzami"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.Faros"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.Garden"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.sq1866"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.Ktel"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <activity
+            android:name=".xaniacity.NeaXwra"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.policeStation"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.PoliceOffice"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.Graveyard"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.ChildGrave"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.InsideLighthouse"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.AbandondedHotel"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.AgioiApostoloi"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".GameOver"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.TzamiRoom"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaEntrance"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaChurch"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaPond"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaFountain"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaRanger"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaAncient"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaRocks"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaNarrow"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaRuins"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaLake"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaWooden"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaBlue"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaStone"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaTree"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.Roumeli"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.Kounoupidiana"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.Tuc"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.Dorm"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.PoliceGarage"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.UnderPool"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.TucOffices"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.InsideApostoloi"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".ItemsMenu"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".stories.StoryFirst"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".Launcher"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".stories.StoryCollected5"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".SaveManager"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".stories.WhirlpoolStory"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaInsideChurch"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".samaria.SamariaTunnel"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity android:name=".samaria.SamariaPrison"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".samaria.SamariaBlood"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".samaria.SamariaLadder"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".samaria.SamariaControlRoom"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".stories.StoryNecklace"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".samaria.SamariaInsideBlue"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".samaria.ferry.OnTheShip"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".samaria.ferry.OnTheShipBenches"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".samaria.ferry.OnTheShipCabin"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".samaria.ferry.OnTheShipRestaurant"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".samaria.ferry.OnTheShipTv"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".elafonisi.Palaioxwra"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".elafonisi.Karavopetra"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".elafonisi.Gialos"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".elafonisi.Limnaki"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".elafonisi.Kedrodasos"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".elafonisi.WeirdRock"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".elafonisi.ElafonisiMonument"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".elafonisi.ElafonisiCross"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.Fragokastello"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoOneOne"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoTwo"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoThree"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoFour"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.Fragofive"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoSix"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoSeven"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoEight"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoNine"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoNineOne"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoTen"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity android:name=".fragokastello.FragoEleven"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity
+            android:name=".mpalos.Mpalos"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".mpalos.MpalosTwo"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".mpalos.MpalosThree"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".mpalos.MpalosFour"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".mpalos.MpalosFourOne"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".mpalos.MpalosFive"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".mpalos.MpalosSix"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".mpalos.MpalosSeven"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.Akrotiri"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriTwo"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriThree"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriFour"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriFive"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriSix"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriSeven"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriEight"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriNine"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriTen"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriInsideChurch"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".akrotiri.AkrotiriMonastery"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".stories.RingStory"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".stories.StoryAfterFrago"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".stories.StoryElafonisiCross"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".stories.EarringStory"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".mpalos.MpalosInsideChurchOne"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".mpalos.MpalosInsideChurchTwo"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".stories.BraceletStory"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.HandMonument"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.hyperspace.HyperSpaceNecklace"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.ToTheSea"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.BossCave"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".xaniacity.IntoBossCave"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".stories.GoodEnding"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".stories.BadEnding"
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name=".stories.BadEndingB"
+            android:theme="@android:style/Theme.NoTitleBar" />
+
+        <service
+            android:name=".MusicBackground"
+            android:exported="false"></service>
+    </application>
+
+</manifest>

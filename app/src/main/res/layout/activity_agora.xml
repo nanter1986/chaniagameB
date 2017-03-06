@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#534747"
+    tools:context=".xaniacity.AgoraAct">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="9">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:weightSum="3"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/backImageStory"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_weight="2" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="3">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/faceImage"
+                    android:background="@drawable/blackpic"
+                    android:layout_above="@+id/et"
+                    android:layout_alignLeft="@+id/bOpt5"
+                    android:layout_alignStart="@+id/bOpt5"
+                    android:layout_weight="2" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text=""
+                android:id="@+id/et"
+                android:background="#ece3e3"
+                android:visibility="visible"
+                android:layout_below="@+id/backImageStory"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:text=""
+                android:id="@+id/textStory"
+                android:background="#0b0b0b"
+                android:textColor="#e7d8d8"
+                android:textSize="15dp"
+                android:layout_below="@+id/et"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="bottom|center_horizontal">
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id"
+                android:layout_below="@+id/textStory"
+                android:layout_centerHorizontal="true">
+            </com.google.android.gms.ads.AdView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="1"
+                android:id="@+id/bOpt1"
+                android:layout_below="@+id/adView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="2"
+                android:id="@+id/bOpt2"
+                android:layout_alignTop="@+id/bOpt1"
+                android:layout_toRightOf="@+id/bOpt1"
+                android:layout_toEndOf="@+id/bOpt1"
+                android:textSize="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="3"
+                android:id="@+id/bOpt3"
+                android:layout_alignTop="@+id/bOpt2"
+                android:layout_toRightOf="@+id/bOpt2"
+                android:layout_toEndOf="@+id/bOpt2"
+                android:textSize="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="4"
+                android:id="@+id/bOpt4"
+                android:layout_alignTop="@+id/bOpt3"
+                android:layout_toRightOf="@+id/bOpt3"
+                android:layout_toEndOf="@+id/bOpt3"
+                android:textSize="15dp"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="5"
+                android:id="@+id/bOpt5"
+                android:layout_alignTop="@+id/bOpt4"
+                android:layout_toRightOf="@+id/bOpt4"
+                android:textSize="15dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.2"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="INV"
+                        android:id="@+id/bInventory"
+                        android:layout_below="@+id/bOpt4"
+                        android:layout_toRightOf="@+id/bOpt3"
+                        android:layout_toEndOf="@+id/bOpt3"
+                        android:textSize="15dp"
+                        android:layout_weight="1"
+                        android:onClick="itemMenu" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:id="@+id/bWest"
+                        android:onClick="westPre"
+                        android:layout_alignTop="@+id/bInv"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:textSize="15dp"
+                        android:text="----"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:id="@+id/bNorth"
+                        android:onClick="northPre"
+                        android:layout_below="@+id/bOpt2"
+                        android:layout_toRightOf="@+id/bOpt1"
+                        android:layout_toEndOf="@+id/bOpt1"
+                        android:textSize="15dp"
+                        android:text="----"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:id="@+id/bSouth"
+                        android:onClick="southPre"
+                        android:textSize="15dp"
+                        android:layout_below="@+id/bWest"
+                        android:layout_toRightOf="@+id/bWest"
+                        android:layout_toEndOf="@+id/bWest"
+                        android:text="----"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="SRC"
+                        android:id="@+id/bInv"
+                        android:textSize="15dp"
+                        android:onClick="invPre"
+                        android:layout_below="@+id/bNorth"
+                        android:layout_toRightOf="@+id/bWest"
+                        android:layout_toEndOf="@+id/bWest"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:id="@+id/bEast"
+                        android:nestedScrollingEnabled="false"
+                        android:onClick="eastPre"
+                        android:layout_alignTop="@+id/bInv"
+                        android:layout_toRightOf="@+id/bOpt2"
+                        android:layout_toEndOf="@+id/bOpt2"
+                        android:textSize="15dp"
+                        android:text="----"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="--"
+                        android:id="@+id/bForward"
+                        android:textSize="30dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_toRightOf="@+id/bOpt4"
+                        android:layout_toEndOf="@+id/bOpt4"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

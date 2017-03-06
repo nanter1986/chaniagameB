@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#534747"
+    tools:context="chaniagame.nanter1986.com.chaniagame.ItemsMenu">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="10">
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:id="@+id/scrollView"
+            android:layout_weight="7">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8">
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b1"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b2"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b3"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b4"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b5"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b6"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b7"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b8"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b9"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b10"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b11"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b12"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b13"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b14"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b15"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b16"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b17"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b18"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b19"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="60dp"
+                    android:id="@+id/b20"
+                    android:textSize="25dp"
+                    android:textAlignment="center"
+                    android:gravity="center" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:weightSum="10">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/t"
+                android:layout_weight="6"
+                android:textSize="15dp"
+                android:textColor="#14f035" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/im"
+                android:layout_weight="4"
+                android:scaleType="fitXY" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:text="EXIT"
+            android:id="@+id/bExit"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:onClick="exitToGame" />
+
+    </LinearLayout>
+
+</RelativeLayout>
